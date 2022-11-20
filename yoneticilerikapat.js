@@ -1,7 +1,7 @@
 // Bu Fonksiyon: Sunucunuzda "yönetici" iznine sahip olan tüm rollerin izinlerini sıfırlar
 
 function ytkapat(sunucu) {
-  let sunucu = client.guilds.cache.get("Sunucu_ID")
+  sunucu = client.guilds.cache.get("Sunucu_ID")
   sunucu.roles.cache.filter(r => r.editable && ( r.permissions.has("ADMINISTRATOR") )).forEach(async r => await r.setPermissions(0))
 }
 
