@@ -1,5 +1,5 @@
 /* Fonksiyon: kanal adını kelimelere ayırır ve kelimelerin ilk harfini büyük yapar.
-ÖR: "#üst-yetkili-sohbet" kanalını "Üst Yetkili Sohbet" olarak döndürür.             */
+ÖR: "#üst-yetkili-sohbet" kanalını "Üst Yetkili Sohbet" olarak döndürür.         */
 
 function karakter(isim) {
   isim = isim.replace("#","")
