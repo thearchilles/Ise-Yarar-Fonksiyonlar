@@ -10,7 +10,7 @@ let ragex = /[^ qwertyuıopğüasdfghjklşizxcvbnmöçQWERTYUIOPĞÜASDFGHJKLŞ�
 let isim = args.slice(0).join(' ')
 if(ragex.test(isim)) return message.channel.send("Seçtiğin kullanıcı adın özel karakter içeriyor!")
 
-//Botunuz bir ses kanalındaysa, kendinden mikrofon kapatma  ve sağırlaştırma yapar
+//Botunuz bir ses kanalındaysa, kendinden mikrofon kapatma ve sağırlaştırma yapar
 message.guild.members.cache.get(client.user.id).voice.setSelfMute(true) //Mikrofon kapatma
 message.guild.members.cache.get(client.user.id).voice.setSelfDeaf(true) //Kulaklık kapatma
 
