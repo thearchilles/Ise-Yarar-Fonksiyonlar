@@ -5,10 +5,17 @@ function rolrep(izinler) {
 
 // ÖRNEK KULLANIMLAR
 
-// Bir rolün izinlerini çekme
-let guild = client.guilds.cache.get("Sunucu_ID")
-let role = guild.roles.cache.get("Rol_ID")
-let izinler = role.permissions.toArray().map(a=>a).join(", ")
+// Bir rolün izinlerini görüntüleme
+let sunucu = client.guilds.cache.get("Sunucu_ID")
+let rol = sunucu.roles.cache.get("Rol_ID")
+let izinler = rol.permissions.toArray().join(", ")
+
   message.channel.send(rolrep(izinler))
 
-// Bir üyenin sahip olduğu izinleri çekme
+
+// Bir üyenin sahip olduğu yetkileri türkçe görüntüleme
+let sunucu = client.guilds.cache.get("Sunucu_ID")
+let uye = sunucu.members.cache.get("Üye_ID")
+let yetkileri = uye.permissions.toArray().join(", ")
+
+  message.channel.send(rolrep(yetkileri))
