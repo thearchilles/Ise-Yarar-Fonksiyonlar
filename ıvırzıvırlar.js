@@ -1,7 +1,7 @@
 /*
 Bu dosyada kullandığım ve işinizi görebileceğini düşündüğüm birkaç ıvır zıvır paylaşıcam
-Her hangi bir sorunuz olursa bana Discorddan ulaşabilirsiniz:
-Archilles#2015 (507610032863576064)
+Her hangi bir sorunuz olursa bana Discorddaki test sunucumdan ulaşabilirsiniz:
+https://discord.gg/URaDj55BKZ
 */
 
 
